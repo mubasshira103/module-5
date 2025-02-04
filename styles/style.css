@@ -70,3 +70,69 @@
     background: rgb(82, 195, 3);
     padding: 21px 32px 21px 32px;
 }
+
+.title {}
+
+.card {
+    width: 884px;
+    margin: 100px auto;
+
+}
+
+.title-1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.title-2 {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+
+    text-align: center;
+}
+
+.card-box {
+    margin: 50px;
+    width: 250px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.img-box {
+    width: 250px;
+}
+
+.img {
+    width: 100%;
+}
+
+.shop {
+
+
+    border-radius: 8px;
+    padding: 10px 24px 10px 24px;
+
+    background-color: rgba(82, 195, 3, 0.15);
+    text-align: center;
+}
+
+.card-conteiner {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+}
